@@ -1,0 +1,48 @@
+.perfil {
+    padding-top: 30px;
+}
+
+.imgRedonda {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.RS{
+    padding-top: 60px;
+}
+
+.RS ul{
+    display: flex;
+    justify-content: center;
+}
+
+.RS ul a{
+    display: block;
+    padding: 5px;
+    padding-right: 30px;
+}
+
+.RS ul li a img{
+    max-width: 50px;
+}
+
+body {
+    background-image: url(imagens/Fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+}
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(2, 61, 255);
+    font-size: large;
+    text-shadow: blueviolet 1px 1px;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: blueviolet;
+    text-shadow: rgb(2, 61, 255) 1px 1px;
+}
