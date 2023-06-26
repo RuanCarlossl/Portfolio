@@ -1,5 +1,17 @@
+
+body {
+    background: linear-gradient(68.15deg, #0c0a0e 16.62%, #240244 85.61%);
+    font-size: 100%;
+}
+
 .perfil {
     padding-top: 30px;
+}
+
+.PF {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .imgRedonda {
@@ -8,30 +20,29 @@
     border-radius: 50%;
 }
 
-.RS{
-    padding-top: 60px;
-}
-
-.RS ul{
+.redes {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.RS {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
     justify-content: center;
+    gap: 10px;
 }
 
-.RS ul a{
-    display: block;
-    padding: 5px;
-    padding-right: 30px;
+.icones {
+    width: 50px;
 }
 
-.RS ul li a img{
-    max-width: 50px;
-}
-
-body {
-    background-image: url(imagens/Fundo.jpg);
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position: center;
+.PJ {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 h1 {
